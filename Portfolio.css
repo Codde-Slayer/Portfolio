@@ -1,3 +1,130 @@
-.name{
-    color: red;
+body{
+    margin:0;
+    padding:0 0px;
+    font-family: Arial, Helvetica, sans-serif
 }
+/*********************************************************************************/
+.nav-container{
+    display:flex;
+    width:97%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+}
+.nav-container div{
+    display: flex;
+    align-items: center;
+}
+.nav-left img{
+    height: 40px;
+    width: 80px;
+}
+.nav-right img{
+    height:30px;
+    width: 30px;
+}
+.nav-container ul{
+    display:flex;
+}
+.nav-container li{
+    list-style: none;
+    padding: 0 10PX;
+}
+.nav-container a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav-right button{
+    padding: 12px 15px;
+    margin: 0 12px ;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+    color: #611f69;
+    font-weight: bold;
+}
+#launch-button{
+    background-color:#4a154b  ;
+    color:white;
+}
+.nav-right button:hover{
+    color:white;
+    background-color: #611f69;
+    cursor: pointer;
+
+
+}
+
+#launch-button:hover{
+    color:#611f69;
+    background-color:white;
+    cursor: pointer;
+}
+.one{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 50px;
+    
+}
+.one div{
+    width: 60%;
+}
+.one img{
+    height: 60vh;
+}
+.one h1{
+    font-size: 52px;
+}
+.one span{
+    font-size: 15px;
+    font-weight: bold;
+}
+.one p{
+    font-size: 17px;
+    font-weight: bold;
+}
+.one1{
+    width:45;
+}
+.one2{
+    width: 100%;
+    display: flex;
+}
+
+.button2{
+    padding: 15px 20px;
+    margin: 0 12px ;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+    color: #611f69;
+    font-weight: bold;
+}
+.launch{
+    background-color:#4a154b  ;
+    color:white;
+    padding: 15px 20px;
+    margin: 0 12px ;
+    border: 1px solid;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.button2:hover{
+    color:white;
+    background-color: #611f69;
+    cursor: pointer;
+
+
+}
+
+.launch:hover{
+    color:#611f69;
+    background-color:white;
+    cursor: pointer;
+}
+/************************section one ends here*****************************************************/
+
