@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/Portfolio.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awah Portfolio</title>
+    
+    
+<link rel="stylesheet" href="./Awah Portfolio_files/Portfolio.css"><link rel="stylesheet" href="./Awah Portfolio_files/font-awesome.min.css"></head>
+
+<body>
+    <nav class="nav-container">
+        <h1>Awah T. Remi &lt;/&gt;</h1>
+
+        <div class="nav-right">
+            <ul>
+                <li><a href="http://127.0.0.1:5500/Portfolio.html#">About</a></li>
+                <li><a href="http://127.0.0.1:5500/Portfolio.html#">My Skills</a></li>
+                <li><a href="http://127.0.0.1:5500/Portfolio.html#">Projects</a></li>
+                <li><a href="http://127.0.0.1:5500/Portfolio.html#">Gallery</a></li>
+            </ul>
+            <button id="launch-button"> CONTACT AWAH</button>
+        </div>
+    </nav>
+    <div class="one-container">
+        <section class="section-one">
+            <div>
+                <h2> Hi my name is Remi | Software Engineer </h2>
+                <div class="contact-images">
+                    <img src="./Awah Portfolio_files/GitHub.png" alt="">
+                    <img src="./Awah Portfolio_files/gmail.jpeg" alt="">
+                    <img src="./Awah Portfolio_files/linkedin.png" alt="">
+                </div>
+                <p class="my-description">I love exploring , learning and creating. I am enthusiastic
+                    about working with new and bigger teams.
+                    I love cooking🍽️, football⚽ and fashion👓</p>
+            </div>
+            <img class="my-picture" src="./Awah Portfolio_files/bacground4.jpeg" alt="">
+
+        </section>
+    </div>
+
+    <section class="section-two">
+        <h2>My Skills</h2>
+        <div class="container">
+            <div class="logos">
+
+                <div>
+                    <img src="./Awah Portfolio_files/javascript.png" alt="javascript">
+                    <p>JavaScript</p>
+                </div>
+                <div>
+                    <img src="./Awah Portfolio_files/python.png.crdownload" alt="python">
+                    <p>Python</p>
+                </div>
+                <div>
+                    <img src="./Awah Portfolio_files/react.png" alt="react">
+                    <p>React</p>
+                </div>
+                <div>
+                    <img src="./Awah Portfolio_files/node.png" alt="node">
+                    <p>NodeJS</p>
+                </div>
+                <div>
+                    <img src="./Awah Portfolio_files/mongo.png" alt="MongoDB">
+                    <p>MongoDB</p>
+                </div>
+                <div>
+                    <img src="./Awah Portfolio_files/html.png" alt="HTML">
+                    <p>HTML</p>
+                </div>
+                <div>
+                    <img src="./Awah Portfolio_files/css.png" alt="CSS">
+                    <p>CSS</p>
+                </div>
+            </div>
+
+
+            <p>I come from the English speaking region of
+                Cameroon - AFrica, where tech awarance is
+                very low. After acquiring a
+                degree in Philosophy, I found fulfilment in
+                playing with computers. Motivated by the urge
+                to learn new skills, i set off to acquire
+                an online certification in I.T at the Cisco
+                Networking Accademy where i found my focus
+                as a web developer. So far, the journey has
+                been both chalenging and exiting. I have
+                learnt great skills, accomplished fascinating
+                works and I'm presently working on new projects</p>
+        </div>
+    </section>
+    <hr>
+    <section class="section-three">
+        <h2>My Projects</h2>
+        <div>
+            <div>
+                <h3></h3>
+                <img src="http://127.0.0.1:5500/Portfolio.html" alt="">
+                <p></p>
+                <span></span>
+                <button>live code</button>
+                <button>Github</button>
+            </div>
+            <div>
+                <h3></h3>
+                <img src="http://127.0.0.1:5500/Portfolio.html" alt="">
+                <p></p>
+                <span></span>
+                <button>live code</button>
+                <button>Github</button>
+            </div>
+            <div>
+                <h3></h3>
+                <img src="http://127.0.0.1:5500/Portfolio.html" alt="">
+                <p></p>
+                <span></span>
+                <button>live code</button>
+                <button>Github</button>
+            </div>
+        </div>
+
+    </section>
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
