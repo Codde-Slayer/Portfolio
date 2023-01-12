@@ -137,14 +137,28 @@ hr{
 /****************************section 3**********************************/
 .my-heading{
     font-size:40px;
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    text-align: center;
     color: rgb(69, 164, 170); 
     font-size: 70px;
-    font-weight: bold;
+    font-weight:600;
+    padding: 20px;
 }
 .section-three{
     display: flex;
     background-color: rgb(69, 164, 170);
     padding: 120px 200px;
+}
+.carousel-caption{
+    color: black;
+    padding-top: 200px;
+}
+/****************************footer*************************************/
+.footer-container{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    height: 20px;
 }
