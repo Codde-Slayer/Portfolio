@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="Portfolio.css">
+<link rel="stylesheet" href="Portfolio.css"> 
 </head>
 
 <body>
@@ -21,22 +21,23 @@
 
         <div class="nav-right">
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">My Skills</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">My Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#projects">CV</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
             </ul>
             <button id="launch-button"> CONTACT AWAH</button>
         </div>
     </nav>
     <div class="one-container">
-        <section class="section-one">
+        <section class="section-one" id="about">
             <div>
-                <h2> Hi my name is Remi | Software Engineer </h2>
+                <h2> Hi my name is Remi / Software Engineer </h2>
                 <div class="contact-images">
-                    <img src="GitHub.png" alt="" />
-                    <img src="gmail.jpeg" alt="" />
-                    <img src="linkedin.png" alt="" />
+                    <a href="https://github.com/awahremi"><img src="GitHub.png" alt="" /></a>
+                    <a><img src="gmail.jpeg" alt="" /></a>
+                    <a><img src="linkedin.png" alt="" /></a>
                 </div>
                 <p class="my-description">I love exploring , learning and creating. I am enthusiastic
                     about working with new and bigger teams.
@@ -47,7 +48,7 @@
         </section>
     </div>
 
-    <section class="section-two">
+    <section class="section-two" id="skills">
         <h2>My Skills</h2>
         <div class="container">
             <div class="logos">
@@ -99,7 +100,7 @@
     </section>
     <hr>
     <h2 class="my-heading">My Projects</h2>
-    <section class="section-three">
+    <section class="section-three" id="projects">
         
         
         <div class="container">
@@ -114,7 +115,7 @@
               <div class="carousel-inner">
           
                 <div class="item active slider">
-                  <img src="estate1.png" alt="Los Angeles" style="width:100%;">
+                  <img src="estate1.png" alt="Estate" style="width:100%;">
                   <div class="carousel-caption">
                     <h3>Real Estate</h3>
                     <p>Buy or rent or post a property</p>
@@ -122,10 +123,51 @@
                 </div>
           
                 <div class="item slider">
-                  <img src="estate2.png" alt="Chicago" style="width:100%;">
+                  <img src="estate2.png" alt="Estate" style="width:100%;">
                   <div class="carousel-caption">
                     <h3>Status</h3>
                     <p>Are you a client or an owner</p>
+                  </div>
+                </div>
+            
+              </div>
+          
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          
+        <div class="container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+          
+                <div class="item active slider">
+                  <img src="hospital reg.png" alt="hospital" style="width:100%;">
+                  <div class="carousel-caption">
+                    <h3>Hospital Register</h3>
+                    <p>Recrute workers, admit and discharge patients</p>
+                  </div>
+                </div>
+          
+                <div class="item slider">
+                  <img src="attendance record.png" alt="Estate" style="width:100%;">
+                  <div class="carousel-caption">
+                    <h3>Attendance Register</h3>
+                    <p>Monitoring entrance and exit of workers</p>
                   </div>
                 </div>
             
@@ -155,11 +197,11 @@
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
           
-                <div class="item active slider">
+                <div class="item active d-flex">
                   <img src="football1.png" alt="Los Angeles" style="width:100%;">
                   <div class="carousel-caption">
                     <h3>Football Website</h3>
-                    <p>Makes API call, Made with React </p>
+                    <p>Makes API call, Built with React </p>
                   </div>
                 </div>
           
