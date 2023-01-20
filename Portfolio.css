@@ -7,6 +7,7 @@ body{
 }
 /*********************************************************************************/
 .nav-container{
+    position: fixed;
     display:flex;
     width:100%;
     justify-content: space-evenly;
@@ -38,9 +39,13 @@ body{
 .nav-container li:hover{
     transform: scale(1.3);
 }
-.nav-container li:active{
-    color:#4831d4;
+.anchor:active{
+    color:rgb(218, 199, 91);
 }
+
+
+
+
 
 
 .nav-container a{
@@ -87,6 +92,9 @@ hr{
     color: rgb(105, 226, 235); 
     font-size: 65px;
     font-weight: bold;
+}
+.section-one a:hover{
+    transform: scale(1.3);
 }
 .my-description{
     font-size: 22px;
