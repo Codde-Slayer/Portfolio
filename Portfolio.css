@@ -170,8 +170,8 @@ hr{
     background-color: rgb(69, 164, 170);
 }
 .item{
-    width: 100%;
-    padding: 100px 0;
+    width: 90%;
+    padding: 100px 20px;
 }
 .item img{
     border-radius: 15px;
