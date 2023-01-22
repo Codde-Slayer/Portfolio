@@ -165,15 +165,21 @@ hr{
 }
 .section-three{
     display: flex;
+    flex-direction: row;
+    width: 100vw;
     background-color: rgb(69, 164, 170);
-    padding: 120px 100px;
 }
-
-.item {
-    display: flex;
-    
+.item{
+    width: 100%;
+    padding: 100px 0;
 }
-
+.item img{
+    border-radius: 15px;
+}
+.projects-sellector{
+    width:20%;
+    background-color: blue;
+}
 
 .carousel-caption{
     color: rgb(147, 145, 145);
