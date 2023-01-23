@@ -164,21 +164,26 @@ hr{
     padding: 20px;
 }
 .section-three{
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
+    width: 98.5vw;
     background-color: rgb(69, 164, 170);
+    
 }
 .item{
-    width: 90%;
     padding: 100px 20px;
 }
 .item img{
     border-radius: 15px;
 }
 .projects-sellector{
-    width:20%;
-    background-color: blue;
+    width:100%;
+    color: white;
+    font-size: 27;
+    font-weight: bold ;
+    text-align: center;
+    background-color: rgb(69, 164, 170);
+}
+.projects-sellector h3:hover{
+    transform: scale(1.2);
 }
 
 .carousel-caption{
