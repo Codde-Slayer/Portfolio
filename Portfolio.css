@@ -79,7 +79,7 @@ hr{
     display: flex;
     align-items: center;
     background: linear-gradient(130deg, #4831d4 67%, #ccf381 33%);
-    background-image: url(bacground1.jpeg);
+    background-image: url(images/bacground1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
