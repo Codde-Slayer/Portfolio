@@ -73,6 +73,10 @@ hr{
     background-color: #611f69;
     border-color:#611f69;
 }
+.setting{
+    border-radius: 7px;
+    height: 40px;
+}
 /************************section one ends here*****************************************************/
 .section-one{
     padding:120px 200px;
