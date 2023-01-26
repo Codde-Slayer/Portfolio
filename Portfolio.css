@@ -16,6 +16,9 @@ body{
     background-color: rgb(59, 51, 60);
     color: white;
 }
+.nav-right a{
+    display: none;
+}
 .nav-container h1{
     font-size: 50px;
     margin: -50px;
@@ -42,12 +45,6 @@ body{
 .anchor:active{
     color:rgb(218, 199, 91);
 }
-
-
-
-
-
-
 .nav-container a{
     text-decoration: none;
     color: white;
@@ -76,7 +73,24 @@ hr{
 .setting{
     border-radius: 7px;
     height: 40px;
+    display: non;
 }
+.dropdown{
+    display: flex;
+    flex-direction: column;
+}
+.dropdown-items{
+    display: flex;
+}
+.dropdown-items a{
+    border-bottom: 1px solid white;
+    display: non;
+    position: relative;
+}
+.line{
+    background-color: white;
+}
+
 /************************section one ends here*****************************************************/
 .section-one{
     padding:120px 200px;
