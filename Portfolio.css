@@ -30,7 +30,7 @@ body{
 
 .menu-bar h1{
     font-size: 50px;
-    margin: -50px;
+    margin: -30px;
     color:rgb(218, 199, 91);
     font-family:'Courier New', Courier, monospace;
 
@@ -92,7 +92,7 @@ body{
 #launch-button{
     color:#611f69;
     padding: 4px 12px ;
-    margin: 0px 12px 10px 20px ;
+    margin: 0px 12px 10px 84px ;
     border: 1px solid;
     border-radius: 5px;
     background-color:rgb(218, 199, 91)4a154b  ;
@@ -282,6 +282,7 @@ hr{
          display:none;
     }
     .setting-button{
+        margin-left: 40px;
         display: block;
         justify-content: flex-start;
     }
@@ -291,9 +292,11 @@ hr{
        
     .menu-bar h1{
         font-size: 24px;
-        margin: 10px;
-        width: 20%;
+        margin-left: 10px;
+        width: 10%;
         white-space: nowrap;
+        background-color: red;
+        border-radius: 11px;
         color:rgb(218, 199, 91);
         font-family:'Courier New', Courier, monospace;
 
