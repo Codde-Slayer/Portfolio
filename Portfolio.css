@@ -283,6 +283,11 @@ hr{
         font-size: 14px;
         font-weight: 400;
     }
+    .my-description{
+        font-weight: bolder;
+        color:white;
+        width: 70%;
+    }
     .laptop{
         display: none;
     }
@@ -402,6 +407,7 @@ hr{
     .cv img{
         width: 10vw;
     }
+/*******************************Gallery media queries*************************************/
 
 
 } 
