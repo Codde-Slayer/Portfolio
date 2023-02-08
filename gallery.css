@@ -50,8 +50,8 @@
   margin-left: -5px;
   padding: 0;
   width: 10%;
+  font-weight: 100;
   white-space: nowrap;
-  background-color: red;
   border-radius: 11px;
   color:rgb(218, 199, 91);
   font-family:'Courier New', Courier, monospace;
@@ -63,12 +63,11 @@
   width: 87%;
   margin: 50px 50px;
   display: grid;
-  grid-template-columns: auto ;
   justify-content: space-around;
   background-color: #dfdcdc;
 }
 div.gallery {
-  width: 100%;
+  width: 75vw;
 }
 .footer-container{
   height: 60px;
@@ -82,4 +81,7 @@ padding:10px 0;
 a{
   text-decoration: none;
 }
+}
+h1{
+  font-weight: 200;
 }

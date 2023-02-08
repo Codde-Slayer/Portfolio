@@ -87,8 +87,9 @@ body{
 .dropdown-menu ul li{
   margin:0 0 0 -35px;
   width: 100%;
+  border: none;
   font-size: 1em;
-  margin-left: 0px;
+  margin-left: 0;
   text-align: center;
 }
 
@@ -322,7 +323,6 @@ hr{
         padding: 0;
         width: 10%;
         white-space: nowrap;
-        background-color: red;
         border-radius: 11px;
         color:rgb(218, 199, 91);
         font-family:'Courier New', Courier, monospace;
