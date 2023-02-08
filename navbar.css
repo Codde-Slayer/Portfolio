@@ -1,0 +1,36 @@
+nav{
+    display: flex;
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu-bar{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+#launch-button{
+    color:#611f69;
+    padding: 4px 12px ;
+    margin: 0px 12px 10px 84px ;
+    border: 1px solid;
+    white-space: nowrap;
+    border-radius: 5px;
+    background-color:rgb(218, 199, 91)4a154b  ;
+}
+.setting{
+    height: 30px;
+    border-radius: 5px;
+}
+nav h1{
+    padding-bottom: 5px;
+    color: rgb(218, 199, 91);
+    white-space: nowrap;
+}
+li{
+    list-style: none;
+
+}
