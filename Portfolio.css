@@ -99,7 +99,7 @@ body{
     margin: 0px 12px 10px 84px ;
     border: 1px solid;
     border-radius: 5px;
-    background-color:rgb(218, 199, 91)4a154b  ;
+    background-color:rgb(225, 223, 223)  ;
     font-weight: bold;
 }
 #launch-button:hover{
@@ -310,7 +310,7 @@ hr{
         margin-left: 120px;
         border: 1px solid;
         border-radius: 5px;
-        background-color:rgb(218, 199, 91)4a154b  ;
+        background-color:rgb(225, 223, 223)  ;
         font-weight: bold;
     }
     nav{
