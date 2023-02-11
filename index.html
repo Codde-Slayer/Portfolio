@@ -13,31 +13,49 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="gallery.css">
-  <link rel="stylesheet" href="Portfolio.css">
 
   <style>
-    .first-h2 {
-      font-size: 100%;
-      overflow: hidden;
-      border-right: .15em solid black;
-      -webkit-animation: typing 2s steps(26, end), blink-caret 1s step-end infinite;
-      -webkit-animation-delay: 3s;
-      -webkit-animation-fill-mode: both;
-      -moz-animation: typing 2s steps(26, end), blink-caret 1s step-end infinite;
-      -moz-animation-delay: 3s;
-    }
-    /* The typing effect */
-    
-    @keyframes typing {
-      from {
-        width: 0
-      }
-      to {
-        width: 17em;
-      }
-    }
-    
+ .top-h2 {
+  text-align: left;
+  overflow: hidden;
+  font-size: 100%;
+  border-right:0;
+  white-space: nowrap;
+  /* keeps content in one line */
+  letter-spacing: .015em;
+  animation: typing 4.5s steps(46, end), blink-caret .75s step-end;
+}
+.bottom-h2 {
+  font-size: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0;
+  -webkit-animation: typing 4s steps(46, end), blink-caret 1s step-end infinite;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation: typing 4s steps(46, end), blink-caret 1s step-end infinite;
+  -moz-animation-delay: 3s;
+}
+/* The typing effect */
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+  to {
+    width: 36em;
+  }
+}
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent
+  }
+  50% {
+    border-color: #000;
+  }
+}
   </style>
+  <link rel="stylesheet" href="Portfolio.css">
   
 </head>
 
@@ -78,15 +96,20 @@
   <div class="one-container">
     <section class="section-one" id="about">
       <div>
-        <h2 class="first-h2"> Hi my name is Remi/ Software Engineer </h2>
+        <div class="typewriter">
+        <h1 class="top-h2"> Hi my name is Remi/</h1>
+        <h1 class="bottom-h2"> Software Engineer </h1>
+        </div>
+       
+        <p class="my-description">I love exploring, learning and creating. I am enthusiastic
+          about working with new and bigger teams.
+          I love cooking🍽️, football⚽ and fashion👓
+        </p>
         <div class="contact-images">
           <a href="https://github.com/awahremi"><img src="images/GitHub.png" alt="" /></a>
           <a href="mailto:awahtarwan2@gmail.com; awahremi@gmail.com"><img src="images/gmail.jpeg" alt="" /></a>
           <a><img src="images/linkedin.png" alt="linkedin" /></a>
         </div>
-        <p class="my-description">I love exploring, learning and creating. I am enthusiastic
-          about working with new and bigger teams.
-          I love cooking🍽️, football⚽ and fashion👓</p>
       </div>
   </div>
 

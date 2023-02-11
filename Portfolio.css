@@ -118,7 +118,7 @@ hr{
 .setting-button{
     display:none;
 }
-.section-one h2, .section-two h2{
+.section-one h2, .section-two h2 {
     font-size:40px;
     width: 80%;
     padding-bottom:80px ;
@@ -126,7 +126,14 @@ hr{
     font-size: 65px;
     font-weight: bold;
 }
-
+.top-h2, .bottom-h2{
+    font-size:55px;
+    font-weight: bold;
+    color: rgb(105, 226, 235); 
+}
+.typewriter{
+    margin: 85px 0;
+}
 
 /************************section one ends here*****************************************************/
 .section-one{
@@ -158,8 +165,10 @@ hr{
     display: flex;
 }
 .contact-images img{
-    height: 30px;
-    padding-right: 20px;
+    height: 60px;
+    margin-right:120px;
+    margin-top: 70px;
+    border-radius: 35px;
 }
 .my-picture{
     width: 300px;
