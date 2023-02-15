@@ -283,7 +283,6 @@ hr{
     height: 90px;
 }
 /******************************media queries*******************************************/
-
 @media only screen and (max-width:  950px) { 
      body{
         margin:0;
@@ -325,7 +324,7 @@ hr{
     nav{
         display: flex;
     }
-       
+   
     .menu-bar h1{
         font-size: 24px;
         margin-left: -10px;
