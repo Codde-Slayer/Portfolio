@@ -423,3 +423,6 @@ hr{
     }
 /*******************************Gallery media queries*************************************/
 } 
+.secret{
+    text-decoration: none;
+}
